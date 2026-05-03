@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( rgb(16, 35, 111),rgb(1, 49, 104));
+    min-height: 97vh;
+}
+.estrela{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+    radial-gradient(1px 1px at 25% 15%, #fff, transparent),
+        radial-gradient(1px 1px at 50% 40%, #fff, transparent),
+        radial-gradient(2px 2px at 15% 55%, #fff, transparent),
+        radial-gradient(1px 1px at 70% 25%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 85% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 35% 75%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 90% 10%, #fff, transparent),
+        radial-gradient(2px 2px at 5% 30%, #fff, transparent),
+        radial-gradient(1px 1px at 60% 85%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 40% 5%, #fff, transparent),
+        radial-gradient(1px 1px at 22% 5%, #fff, transparent),
+        radial-gradient(1px 1px at 20% 59%, #fff, transparent),
+        radial-gradient(2px 2px at 5% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 77% 35%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 85% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 35% 75%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 90% 10%, #fff, transparent),
+        radial-gradient(2px 2px at 5% 30%, #fff, transparent),
+        radial-gradient(1px 1px at 60% 85%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 40% 5%, #fff, transparent),
+        radial-gradient(2px 1px at 87% 30%, #ffff,transparent) ,
+        radial-gradient(2px 1px at 80% 50%, #ffff,transparent) ;
+        background-size: 300px 300px;
+        z-index: -1;
+}
+img{
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+}
+.logo{
+    top: 0;
+    left: 0;
+}
+form{
+    background-color: rgba(0, 0,0,0.9);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px;
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0px 32px 0px rgba(0, 0, 0, 0.9);
+    user-select: none;
+}
+form h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-right: 45px;
+}
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+}
+button:active{
+    background-color: rgb(47, 200, 251);
+    transition: all 0s;
+}
+h1{
+   text-align: center;
+}
+.caixa i{
+    position: absolute;
+    right: 90px;
+    font-size: 25px;
+    top: 38.75%;
+    color: rgb(103, 103, 103);
+}
+.caixe i{
+    position: absolute;
+    right: 90px;
+    font-size: 25px;
+    top: 53%;
+    color: rgb(103, 103, 103);
+}
+.jn{
+    text-align: center;
+    margin-top: 5px;
+}
+a{
+    color: rgb(30, 83, 255);
+    text-decoration: none;
+}
+a:hover{
+color: rgb(0, 0, 179);
+text-decoration: underline;
+transition: all 0.7s ease-in-out;
+}
